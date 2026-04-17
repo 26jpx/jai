@@ -1,1 +1,111 @@
-Jai Sartoni Purba
+<!doctype html>
+<html ⚡ lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My AMP Portfolio</title>
+  <link rel="canonical" href="index.html">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+  <!-- AMP Script -->
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+  <!-- AMP Components -->
+  <script async custom-element="amp-carousel"
+    src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+
+  <style amp-custom>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .card {
+      padding: 20px;
+      background: #f4f4f4;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    a {
+      color: #00f2fe;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>My Portfolio</h1>
+</header>
+
+<section class="hero">
+  <h2>Hello, I'm</h2>
+  <h1>Your Name</h1>
+  <p>Web Developer | Designer</p>
+</section>
+
+<section>
+  <h2>About Me</h2>
+  <p>I build fast and modern websites using AMP and modern tools.</p>
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <!-- AMP Carousel -->
+  <amp-carousel width="300" height="200" layout="responsive" type="slides">
+    <div class="card">
+      <h3>Project 1</h3>
+      <p>Short description</p>
+    </div>
+    <div class="card">
+      <h3>Project 2</h3>
+      <p>Short description</p>
+    </div>
+  </amp-carousel>
+
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Your Name</p>
+</footer>
+
+</body>
+</html>
